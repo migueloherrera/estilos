@@ -197,24 +197,38 @@ p { margin: 0 0 10px 0; }
 
 .button {
   display: inline-block;
-  padding: 6px 12px;
-  margin-bottom: 0;
-  font-size: 14px;
+  padding: 12px 12px;
   font-weight: normal;
-  line-height: 1.5;
+  color: #fff;
+  font-size: 1.75em;
+  line-height: 1.25em;
+  width: 100%;
+  max-width: 14em;
+  min-height: 2.5em;
+  margin: .5em auto;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
   text-align: center;
-  white-space: nowrap;
   vertical-align: middle;
   cursor: pointer;
+  background: gray;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .button:hover,
 .button:focus {
   color: #333;
   text-decoration: none;
+}
+
+.success {
+  background-color: #5bb75b;
+  background-image: linear-gradient(to bottom, #62c462, #51a351);
+}
+
+.success:hover {
+  background: #51a351;
 }
 
 /* LINKS */
@@ -227,4 +241,13 @@ a {
 a:hover {
   color: #005580;
   text-decoration: underline;
+}
+
+/* NAVBAR */
+
+.navbar {
+  padding: 5px 50px;
+  color: #AAAAAA;
+  background-color: #222222;
+  height: 50px;
 }
